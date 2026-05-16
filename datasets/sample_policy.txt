@@ -1,0 +1,14 @@
+COMPANY POLICIES - CONFIDENTIAL INTERNAL
+
+1. Remote Work Policy
+Employees are allowed to work remotely up to 3 days a week.
+All remote work must be approved by the department manager.
+
+2. Expense Policy
+Meals during business travel can be expensed up to $50 per day.
+Flights must be booked in economy class unless the flight duration exceeds 8 hours.
+
+3. Security Protocol
+All employee laptops must be encrypted.
+Passwords must be changed every 90 days.
+In case of a security incident, contact IT immediately at it-security@enterprise.com.

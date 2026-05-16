@@ -1,0 +1,86 @@
+# ============================================================
+# Enterprise RAG Intelligence System - Requirements
+# Cross-verified with official PyPI documentation
+# All versions tested for mutual compatibility on Python 3.12
+# ============================================================
+
+# ── Web Framework ─────────────────────────────────────────
+# https://pypi.org/project/fastapi/
+fastapi==0.115.12
+
+# https://pypi.org/project/uvicorn/
+uvicorn[standard]==0.34.0
+
+# ── Frontend UI ───────────────────────────────────────────
+# https://pypi.org/project/streamlit/
+streamlit==1.45.1
+
+# ── LangChain Ecosystem ───────────────────────────────────
+# langchain-google-genai 2.1.5 requires langchain-core>=0.3.62,<0.4.0
+# langchain 0.3.25 requires langchain-core>=0.3.58,<1.0.0
+# Resolved: pin langchain-core to 0.3.62 (satisfies both)
+# https://pypi.org/project/langchain/
+langchain==0.3.25
+
+# https://pypi.org/project/langchain-core/
+langchain-core==0.3.62
+
+# https://pypi.org/project/langgraph/
+langgraph==0.4.5
+
+# https://pypi.org/project/langchain-google-genai/
+langchain-google-genai==2.1.5
+
+# ── Vector Database ───────────────────────────────────────
+# https://pypi.org/project/pinecone/
+# NOTE: pinecone-client is DEPRECATED; official package is now 'pinecone'
+pinecone==6.0.2
+
+# ── Hybrid Retrieval / BM25 ───────────────────────────────
+# https://pypi.org/project/rank-bm25/
+# Pure-Python BM25, no C++ compilation required on Windows
+rank-bm25==0.2.2
+
+# ── Document Processing ───────────────────────────────────
+# https://pypi.org/project/PyMuPDF/
+PyMuPDF==1.25.5
+
+# https://pypi.org/project/pandas/
+pandas==2.2.3
+
+# ── Database ──────────────────────────────────────────────
+# https://pypi.org/project/SQLAlchemy/
+sqlalchemy==2.0.40
+
+# https://pypi.org/project/psycopg2-binary/
+psycopg2-binary==2.9.10
+
+# ── Authentication & Security ─────────────────────────────
+# https://pypi.org/project/python-jose/
+python-jose[cryptography]==3.3.0
+
+# https://pypi.org/project/bcrypt/
+# Pinned to 4.x — passlib 1.7.4 is incompatible with bcrypt 5.x
+bcrypt==4.0.1
+
+# https://pypi.org/project/passlib/
+passlib[bcrypt]==1.7.4
+
+# ── FastAPI Utilities ─────────────────────────────────────
+# https://pypi.org/project/python-multipart/
+python-multipart==0.0.20
+
+# ── Pydantic ──────────────────────────────────────────────
+# https://pypi.org/project/pydantic/
+pydantic==2.11.4
+
+# https://pypi.org/project/pydantic-settings/
+pydantic-settings==2.9.1
+
+# ── HTTP Client ───────────────────────────────────────────
+# https://pypi.org/project/requests/
+requests==2.32.3
+
+# ── Environment Variables ─────────────────────────────────
+# https://pypi.org/project/python-dotenv/
+python-dotenv==1.1.0
