@@ -20,7 +20,7 @@ streamlit==1.45.1
 # langchain 0.3.25 requires langchain-core>=0.3.58,<1.0.0
 # Resolved: pin langchain-core to 0.3.62 (satisfies both)
 # https://pypi.org/project/langchain/
-langchain==0.3.25
+langchain==1.3.9
 
 # https://pypi.org/project/langchain-core/
 langchain-core==0.3.62
