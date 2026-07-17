@@ -68,7 +68,7 @@ passlib[bcrypt]==1.7.4
 
 # ── FastAPI Utilities ─────────────────────────────────────
 # https://pypi.org/project/python-multipart/
-python-multipart==0.0.20
+python-multipart==0.0.31
 
 # ── Pydantic ──────────────────────────────────────────────
 # https://pypi.org/project/pydantic/
