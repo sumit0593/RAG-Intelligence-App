@@ -57,7 +57,7 @@ psycopg2-binary==2.9.10
 
 # ── Authentication & Security ─────────────────────────────
 # https://pypi.org/project/python-jose/
-python-jose[cryptography]==3.3.0
+python-jose[cryptography]==3.4.0
 
 # https://pypi.org/project/bcrypt/
 # Pinned to 4.x — passlib 1.7.4 is incompatible with bcrypt 5.x
