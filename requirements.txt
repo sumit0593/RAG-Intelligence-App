@@ -13,7 +13,7 @@ uvicorn[standard]==0.34.0
 
 # ── Frontend UI ───────────────────────────────────────────
 # https://pypi.org/project/streamlit/
-streamlit==1.45.1
+streamlit==1.54.0
 
 # ── LangChain Ecosystem ───────────────────────────────────
 # langchain-google-genai 2.1.5 requires langchain-core>=0.3.62,<0.4.0
