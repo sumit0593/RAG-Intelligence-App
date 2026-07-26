@@ -79,7 +79,7 @@ pydantic-settings==2.9.1
 
 # ── HTTP Client ───────────────────────────────────────────
 # https://pypi.org/project/requests/
-requests==2.32.3
+requests==2.33.0
 
 # ── Environment Variables ─────────────────────────────────
 # https://pypi.org/project/python-dotenv/
